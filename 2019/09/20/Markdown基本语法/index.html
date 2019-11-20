@@ -54,7 +54,7 @@
 <meta property="og:description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。  一、标题在想要设置为标题的前面加#来表示一个#是一级标题，二个##是二级标题，以此类推。支持6级标题。示例： 123456# 这是一级标题## 这是二级标题### 这是三级标题#### 这是四级标题##### 这是五级标题###### 这是六级标题  效果如下: 这是一级标题这是二级标题这是三级">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570645166032&di=2f53f3e452b78281c82ea61f21b760f7&imgtype=0&src=http%3A%2F%2Fwx3.sinaimg.cn%2Flarge%2F00678rgoly1fsoqtttzlkj31hc0zk7j7.jpg">
-<meta property="og:updated_time" content="2019-11-20T02:33:04.139Z">
+<meta property="og:updated_time" content="2019-11-20T09:44:55.924Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown基本语法">
 <meta name="twitter:description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。  一、标题在想要设置为标题的前面加#来表示一个#是一级标题，二个##是二级标题，以此类推。支持6级标题。示例： 123456# 这是一级标题## 这是二级标题### 这是三级标题#### 这是四级标题##### 这是五级标题###### 这是六级标题  效果如下: 这是一级标题这是二级标题这是三级">
@@ -203,7 +203,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-11-20 10:33:04" itemprop="dateModified" datetime="2019-11-20T10:33:04+08:00">2019-11-20</time>
+                <time title="Modified: 2019-11-20 17:44:55" itemprop="dateModified" datetime="2019-11-20T17:44:55+08:00">2019-11-20</time>
               </span>
 
           
@@ -295,17 +295,37 @@
 <li>列表内容</li>
 </ul>
 <ul>
-<li><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3>语法：<br>数字加点</li>
+<li><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3>  语法：<br>数字加点</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1.列表内容</span><br><span class="line">2.列表内容</span><br><span class="line">3.列表内容</span><br><span class="line">	</span><br><span class="line">注意：序号跟内容之间要有空格</span><br></pre></td></tr></table></figure>
 
-
 <p>效果如下：</p>
 <ol>
-<li>列表内容</li>
-<li>列表内容</li>
-<li>列表内容</li>
+<li><p>列表内容</p>
+</li>
+<li><p>列表内容</p>
+</li>
+<li><p>列表内容</p>
+</li>
 </ol>
+<h2 id="八、代码"><a href="#八、代码" class="headerlink" title="八、代码"></a>八、代码</h2><p>语法：</p>
+<p>单行代码：代码之间分别用一个反引号包起来 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`代码内容`</span><br></pre></td></tr></table></figure>
+
+<p>代码块：代码之间分别用三个反括号包起来，且两边的反引号单独占一行。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">(```)</span><br><span class="line"></span><br><span class="line">​	代码...</span><br><span class="line"></span><br><span class="line">​	代码...</span><br><span class="line"></span><br><span class="line">​	代码...</span><br><span class="line"></span><br><span class="line">(```)</span><br></pre></td></tr></table></figure>
+
+<p>注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</p>
+<p>示例：</p>
+<p>单行代码</p>
+<p><code>create database hero;</code></p>
+<p>代码块</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">(```)</span><br><span class="line">	function fun()&#123;</span><br><span class="line">		echo <span class="string">"这是一句非常牛逼的代码"</span></span><br><span class="line">	&#125;</span><br><span class="line">	func();</span><br><span class="line">(```)</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<p><code>create database hero</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">function fun()&#123;</span><br><span class="line">	echo &quot;这是一句非常牛逼的代码&quot;</span><br><span class="line">&#125;</span><br><span class="line">func();</span><br></pre></td></tr></table></figure>
+
 <p>​    </p>
 
     </div>
@@ -366,7 +386,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、标题"><span class="nav-number">1.</span> <span class="nav-text">一、标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#这是一级标题"><span class="nav-number"></span> <span class="nav-text">这是一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#这是二级标题"><span class="nav-number">1.</span> <span class="nav-text">这是二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#这是三级标题"><span class="nav-number">1.1.</span> <span class="nav-text">这是三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#这是四级标题"><span class="nav-number">1.1.1.</span> <span class="nav-text">这是四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#这是五级标题"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">这是五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#这是六级标题"><span class="nav-number">1.1.1.1.1.</span> <span class="nav-text">这是六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、字体"><span class="nav-number">2.</span> <span class="nav-text">二、字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、引用"><span class="nav-number">3.</span> <span class="nav-text">三、引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、图片"><span class="nav-number">4.</span> <span class="nav-text">四、图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五、分割线"><span class="nav-number">5.</span> <span class="nav-text">五、分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六、超链接"><span class="nav-number">6.</span> <span class="nav-text">六、超链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#七、列表"><span class="nav-number">7.</span> <span class="nav-text">七、列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#无序列表"><span class="nav-number">7.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#有序列表"><span class="nav-number">7.2.</span> <span class="nav-text">有序列表</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、标题"><span class="nav-number">1.</span> <span class="nav-text">一、标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#这是一级标题"><span class="nav-number"></span> <span class="nav-text">这是一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#这是二级标题"><span class="nav-number">1.</span> <span class="nav-text">这是二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#这是三级标题"><span class="nav-number">1.1.</span> <span class="nav-text">这是三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#这是四级标题"><span class="nav-number">1.1.1.</span> <span class="nav-text">这是四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#这是五级标题"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">这是五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#这是六级标题"><span class="nav-number">1.1.1.1.1.</span> <span class="nav-text">这是六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、字体"><span class="nav-number">2.</span> <span class="nav-text">二、字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、引用"><span class="nav-number">3.</span> <span class="nav-text">三、引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、图片"><span class="nav-number">4.</span> <span class="nav-text">四、图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五、分割线"><span class="nav-number">5.</span> <span class="nav-text">五、分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六、超链接"><span class="nav-number">6.</span> <span class="nav-text">六、超链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#七、列表"><span class="nav-number">7.</span> <span class="nav-text">七、列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#无序列表"><span class="nav-number">7.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#有序列表"><span class="nav-number">7.2.</span> <span class="nav-text">有序列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#八、代码"><span class="nav-number">8.</span> <span class="nav-text">八、代码</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -380,7 +400,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>

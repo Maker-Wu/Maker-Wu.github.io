@@ -2,14 +2,14 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Godwu的博客
-subtitle:
-description:
+# Site 站点主配置
+title: Godwu的博客 # 网站标题
+subtitle: # 网站副标题
+description: 
 keywords:
-author: John Doe
-language: en
-timezone:
+author: God Wu # 网站拥有者昵称
+language: zh-CN
+timezone: # 网站时区设置，一般不填写保持默认
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
